@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+    ========================================
+    Campus Eats Project
+    Author: Jowuan Williams
+    Date: September 11
+    Description:
+      - Simple one-page blog about restaurants near Petty.
+      - Includes:
+          * Header with page title and links
+          * Quick Tips sidebar
+          * Intro section 
+          * 3 Restaurants, each with 3 dishes
+          * Footer with contact info
+    ========================================
+  -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campus Eats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Campus Eats</h1>
+        <p>Quick food & drink picks near the Petty building.</p>
+            <!-- Simple links to jump to different parts of the page -->
+
+        <div>
+            <a href="#intro">Intro</a>
+            <a href="#spots">Spots</a>
+            <a href="#tips">Tips</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <div id="tips">
+        <h2>Quick Tips</h2>
+        <p>Watch for student discounts and lunch specials. Lines are longest 12–1:30pm, so mobile order when you can.
+        </p>
+    </div>
+      <!-- === Intro section  === -->
+
+    <div id="intro">
+        <h2>What this mini‑blog is about</h2>
+        <p>Welcome to Campus Eats, a short guide to places within a quick walk of Petty. I picked spots that are
+            affordable and easy for students. Each place lists three specific items so you can decide fast.</p>
+    </div>
+  <!-- === Restaurants  === -->
+
+    <div id="spots">
+        <div class="restaurant">
+            <h2>Tate Street Coffee House</h2>
+            <p>344 Tate st · Sandwiches & Coffee</p>
+            <img src="images/r1-storefront.jpg" alt="Front of Restaurant 1">
+            <p>small coffee shop, good setting to study in </p>
+            <div class="dish">
+                <img src="images/r1-dish1.jpg" alt="Avocado breakfast bagel">
+                <p><strong>Avocado Breakfast Bagel</strong> — Creamy and filling before class.
+            </div>
+            <div class="dish">
+                <img src="images/r1-dish2.jpg" alt="Chicken pesto panini">
+                <p><strong>Chicken Pesto Panini</strong> — Hot, melty, and fast.
+            </div>
+            <div class="dish">
+                <img src="images/r1-dish3.jpg" alt="Iced caramel latte">
+                <p><strong>Iced Caramel Latte</strong> — Sweet but balanced.
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <h2>Crazy Mexico</h2>
+        <p>332 Tate St· Tacos & Bowls</p>
+        <img src="images/r2-storefront.jpg" alt="Front of Restaurant 2">
+        <p>Quick service with build‑your‑own options.</p>
+        <div class="dishes">
+            <div class="dish">
+                <p><strong>Chicken Street Tacos</strong> — Simple and flavorful.
+            </div>
+            <div class="dish">
+                <p><strong>Veggie Burrito Bowl</strong> — Good vegetarian option.
+            </div>
+            <div class="dish">
+                <p><strong>Chips & Queso</strong> — Shareable side.
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <h2>Ghong Chai</h2>
+        <p>344 Tate st · Boba & Desserts</p>
+        <img src="images/r3-storefront.jpg" alt="Front of Restaurant 3">
+        <p>Good for an afternoon pick‑me‑up; many flavors and sweetness levels.</p>
+        <div class="dishes">
+            <div class="dish">
+                <p><strong>Brown Sugar Boba</strong> — Chewy pearls, caramel notes.
+                <div class="dish">
+                    <p><strong>Matcha Latte</strong> — Try 50% sweetness.
+                </div>
+                <div class="dish">
+                    <p><strong>Taiyaki Ice Cream</strong> — Warm cone with soft‑serve.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <p>Questions or a rec to add? Email <a href="jxwilliams@uncg.edu">jxwilliams@uncg.edu</a>.</p>
+    </footer>
+</body>
+
+</html>
