@@ -53,7 +53,7 @@ img {
 }
 
 .dish {
-
+  display: flex;
   border: 1px solid gray;
   background: white;
   padding: 8px;
